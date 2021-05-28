@@ -31,9 +31,10 @@
     },
     "appVmSize": {
       "type": "string",
-      "defaultValue": "Standard_DS2_v2",
+      "defaultValue": "Standard_B2",
       "allowedValues": [
         "Standard_DS2",
+        "Standard_B2",
         "Standard_DS3",
         "Standard_DS4",
         "Standard_DS11",
@@ -56,9 +57,10 @@
     },
     "mySqlVmSize": {
       "type": "string",
-      "defaultValue": "Standard_DS2_v2",
+      "defaultValue": "Standard_B2s",
       "allowedValues": [
         "Standard_DS2",
+        "Standard_B2",
         "Standard_DS3",
         "Standard_DS4",
         "Standard_DS11",
@@ -81,9 +83,10 @@
     },
     "mongoVmSize": {
       "type": "string",
-      "defaultValue": "Standard_DS2_v2",
+      "defaultValue": "Standard_B2",
       "allowedValues": [
         "Standard_DS2",
+        "Standard_B2",
         "Standard_DS3",
         "Standard_DS4",
         "Standard_DS11",
@@ -113,7 +116,7 @@
     }
   },
   "variables": {
-    "scriptDownloadUri": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/openedx-scalable-ubuntu/",
+    "scriptDownloadUri": "https://raw.githubusercontent.com/odie12/openedx-scalable-ubuntu/main",
     "installScript": "install-openedx.sh",
     "installCommand": "[concat('bash -c ''nohup ./', variables('installScript'), ' ', parameters('appVmCount'), ' ', parameters('adminUsername'), ' ', parameters('adminPassword'), ' </dev/null &>/var/log/azure/openedx-install.log &''')]",
     "availabilitySetName": "avail-set",
