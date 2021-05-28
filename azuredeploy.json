@@ -116,7 +116,7 @@
     }
   },
   "variables": {
-    "scriptDownloadUri": "https://raw.githubusercontent.com/odie12/openedx-scalable-ubuntu/main",
+    "scriptDownloadUri": "https://raw.githubusercontent.com/odie12/openedx-scalable-ubuntu/main/",
     "installScript": "install-openedx.sh",
     "installCommand": "[concat('bash -c ''nohup ./', variables('installScript'), ' ', parameters('appVmCount'), ' ', parameters('adminUsername'), ' ', parameters('adminPassword'), ' </dev/null &>/var/log/azure/openedx-install.log &''')]",
     "availabilitySetName": "avail-set",
