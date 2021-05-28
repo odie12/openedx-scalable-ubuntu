@@ -15,13 +15,13 @@
       "value": 1
     },
     "appVmSize" : {
-      "value": "Standard_B2"
+      "value": "Standard_B2s"
     },
     "mySqlVmSize" : {
-      "value": "Standard_B2"
+      "value": "Standard_B2s"
     },
     "mongoVmSize" : {
-      "value": "Standard_B2"
+      "value": "Standard_B2s"
     }
   }
 }

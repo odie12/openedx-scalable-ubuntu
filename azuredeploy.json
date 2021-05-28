@@ -31,10 +31,10 @@
     },
     "appVmSize": {
       "type": "string",
-      "defaultValue": "Standard_B2",
+      "defaultValue": "Standard_B2s",
       "allowedValues": [
         "Standard_DS2",
-        "Standard_B2",
+        "Standard_B2s",
         "Standard_DS3",
         "Standard_DS4",
         "Standard_DS11",
@@ -60,7 +60,7 @@
       "defaultValue": "Standard_B2s",
       "allowedValues": [
         "Standard_DS2",
-        "Standard_B2",
+        "Standard_B2s",
         "Standard_DS3",
         "Standard_DS4",
         "Standard_DS11",
@@ -83,10 +83,10 @@
     },
     "mongoVmSize": {
       "type": "string",
-      "defaultValue": "Standard_B2",
+      "defaultValue": "Standard_B2s",
       "allowedValues": [
         "Standard_DS2",
-        "Standard_B2",
+        "Standard_B2s",
         "Standard_DS3",
         "Standard_DS4",
         "Standard_DS11",
