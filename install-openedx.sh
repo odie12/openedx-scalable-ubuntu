@@ -66,6 +66,7 @@ git clone $CONFIGURATION_REPO configuration
 cd configuration
 git checkout $CONFIGURATION_VERSION
 pip install -r requirements.txt
+apt install ansible -y
 
 cd playbooks
 export ANSIBLE_OPT_VARS="-e@$ANSIBLE_ROOT/server-vars.yml -e@$ANSIBLE_ROOT/extra-vars.yml"
